@@ -15,6 +15,7 @@ mongoose.connect(`mongodb+srv://todo_mongoose:${process.env.DB_PASS}@cluster0.ix
 
 
 app.use('/todo', todoHandler)
+app.use('/user', userHandler)
 
 
 // function errorHandler(err, rq, res, next) {

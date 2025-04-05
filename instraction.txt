@@ -1,0 +1,2 @@
+1.create schema
+2.create route handler and connect to index.js
